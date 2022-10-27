@@ -18,7 +18,6 @@ const App = () => {
     });
     setFilteredMonsters(newFiletered);
   }, [monster, searchedField]);
-  console.log(searchedField);
 
   const searchChange = (event) => {
     const searchedFieldString = event.target.value.toLocaleLowerCase();
